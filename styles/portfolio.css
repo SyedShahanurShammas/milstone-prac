@@ -291,3 +291,46 @@ footer {
     height: 780px;
     background-color: rgba(255, 248, 243, 1);
 }
+
+.footer_section {
+    display: flex;
+    gap: 147px;
+    max-width: 1114px;
+    margin: 0px auto;
+    padding-top: 130px;
+}
+
+.footer_title {
+    color: #181818;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 350px;
+}
+
+.inp_st {
+    margin: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 16px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #d6d6e7;
+    border-radius: 3px;
+    width: 341px;
+
+}
+
+.inp_text {
+    margin: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 16px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #d6d6e7;
+    border-radius: 3px;
+    width: 341px;
+    height: 140px;
+}
