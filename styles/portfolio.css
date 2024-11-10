@@ -309,28 +309,24 @@ footer {
     width: 350px;
 }
 
-.inp_st {
-    margin: 20px 0px;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0 16px;
-    height: 48px;
-    background-color: #fff;
-    border: 1px solid #d6d6e7;
-    border-radius: 3px;
-    width: 341px;
-
+.footer_column {
+    width: 50%;
 }
 
-.inp_text {
-    margin: 20px 0px;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0 16px;
-    height: 48px;
-    background-color: #fff;
-    border: 1px solid #d6d6e7;
-    border-radius: 3px;
-    width: 341px;
-    height: 140px;
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
 }
